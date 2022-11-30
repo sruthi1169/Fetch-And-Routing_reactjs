@@ -1,0 +1,14 @@
+.blogs-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .blogs-list-container {
+    width: 100%;
+    max-width: 670px;
+  }
+}

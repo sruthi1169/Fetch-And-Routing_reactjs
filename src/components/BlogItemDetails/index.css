@@ -1,0 +1,85 @@
+/* Write your CSS code here */
+.blog-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.blog-info-title {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.blog-image {
+  width: 100%;
+  height: 150px;
+  max-width: 450px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.author-details {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.author-image {
+  height: 30px;
+  width: 30px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.author-name {
+  color: #d3d3d3;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 300;
+}
+.blog-content {
+  color: #2f4f4f;
+  font-weight: 600;
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .blog-info {
+    width: 100%;
+    max-width: 950px;
+  }
+
+  .blog-info-title {
+    font-weight: bold;
+    font-size: 32px;
+  }
+
+  .blog-image {
+    width: 100%;
+    height: 350px;
+    max-width: 950px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .author-image {
+    height: 50px;
+    width: 50px;
+  }
+
+  .author-name {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .blog-content {
+    color: #2f4f4f;
+    font-weight: 600;
+    font-size: 22px;
+  }
+}
